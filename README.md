@@ -1,5 +1,5 @@
 # Portfolio-Analysis
-Creating an equally-weighted portfolio, finding an optimal portfolio by adjusting weights and comparing their sharpe ratios with those of individual stocks..
+Creating an equally-weighted portfolio, finding an optimal portfolio by adjusting weights and comparing their sharpe ratios with those of individual stocks to find optimal solution.
 
 
 ----------------------------------- OBJECTIVE AND OVERVIEW
@@ -16,7 +16,7 @@ In this analysis, we explore historical Adjusted Close stock price data pertaini
 ----------------------------------- KEY CONCEPTS / TERMINOLOGY
 
 
-* OHLC Data - OHLC stands for "Open, Close, Low, Close" and refers to stock prices on a given day.
+* **OHLC Data** - OHLC stands for "Open, Close, Low, Close" and refers to stock prices on a given day.
   
   ** The Open price is the first price a stock was listed for on a specified date.
   ** The High price is the highest sale price the stock was listed for on that day.
@@ -32,13 +32,17 @@ The full OHLC data set contains two additional columns:
 The data fetched for this analysis comes from Yahoo Finance.
 
   
-* Adjusted Close Price
-* Return / Cumulative Return
-* Portfolio Expected Return
-* Portfolio Risk / Portfolio Standard Deviation
-* Efficient Frontier
-* Sharpe Ratio / Maximum Sharpe Ratio
-* 
+* **Return / Cumulative Return** - Returns refer to the change in close or adjusted close prices, represented as a percentage. Cumulative returns are the aggregation of all returns prior to a specified date.
+
+  
+* **Portfolio Expected Return** - This is a key metric of portfolio analysis and is a measure of how much we can expect in return for investing in portfolio stocks. This is calculated by multiplying the historical mean of the asset returns with the weight of the assets. 
+
+* **Portfolio Risk / Portfolio Standard Deviation** - Risk, which is measured by the standard deviation of returns, is the second key metric in portfolio analysis. This gives us the level of uncertainty in how much return we can expect from a portfolio.
+
+
+* **Efficient Frontier** - The Efficient Frontier is a 
+* **Sharpe Ratio / Maximum Sharpe Ratio**
+  
 
 
 
