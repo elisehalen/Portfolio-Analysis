@@ -33,20 +33,20 @@ In this analysis, we explore historical Adjusted Close stock price data pertaini
   
 * **Return / Cumulative Return** - Returns refer to the change in close or adjusted close prices, represented as a percentage. Cumulative returns are the aggregation of all returns prior to a specified date.
 
-  
+
 * **Portfolio Expected Return** - This is a key metric of portfolio analysis and is a measure of how much we can expect in return for investing in portfolio stocks. This is calculated by multiplying the historical mean of the asset returns with the weight of the assets. 
+
 
 * **Portfolio Risk / Portfolio Standard Deviation** - Risk, which is measured by the standard deviation of returns, is the second key metric in portfolio analysis. This gives us the level of uncertainty in how much return we can expect from a portfolio.
 
 
-* **Efficient Frontier** - The Efficient Frontier is a 
-* **Sharpe Ratio / Maximum Sharpe Ratio**
+* **Efficient Frontier** - The Efficient Frontier is a concept that delivers a set of optimal portfolios with various expected returns, risk levels and asset weights. This allows us to find the highest expected return at each level of risk and automatically presents us with the asset weights needed to achieve this portfolio.
+
+
+
+* **Sharpe Ratio / Maximum Sharpe Ratio** - 
   
 
 
 
 ----------------------------------- METHODOLOGY
-
-Then, we calculate returns, cumulative returns, and visualize monthly cumulative returns to get a clear idea as to how these financial institutions have performed over time. 
-
-Next, we create an equally-weighted portfolio containing these stocks and analyze its expected return and risk
