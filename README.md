@@ -18,18 +18,17 @@ In this analysis, we explore historical Adjusted Close stock price data pertaini
 
 * **OHLC Data** - OHLC stands for "Open, Close, Low, Close" and refers to stock prices on a given day.
   
-  ** The Open price is the first price a stock was listed for on a specified date.
-  ** The High price is the highest sale price the stock was listed for on that day.
-  ** The Low price is the lowest sale price the stock was listed for on the same day.
-  ** The Close price refers to the last price that the stock was listed for on that day.
+  - The **Open** price is the first price a stock was listed for on a specified date.
+  - The **High** price is the highest sale price the stock was listed for on that day.
+  - The **Low** price is the lowest sale price the stock was listed for on the same day.
+  - The **Close** price refers to the last price that the stock was listed for on that day.
 
-The full OHLC data set contains two additional columns:
+    The full OHLC data set contains two additional columns:
 
-** Adjusted Close prices differ from Close prices. While Close prices are simply the closing price of a stock on a given day, Adjusted Close prices take corporate actions into account (e.g. stock splits, dividens, and more) that affect the stock's true performance. Thus, using Adjusted Close prices in financial analyses is more accurate.
+    - **Adjusted Close** prices differ from Close prices. While Close prices are simply the closing price of a stock on a given day, Adjusted Close prices take corporateactions into account (e.g. stock splits, dividens, and more) that affect the stock's true performance. Thus, using Adjusted Close prices in financial analyses is more accurate.
+    - **Volume** refers to the number of trades that occurred on the specified date.
 
-** Volume refers to the number of trades that occurred on the specified date.
-
-The data fetched for this analysis comes from Yahoo Finance.
+    The data fetched for this analysis comes from Yahoo Finance.
 
   
 * **Return / Cumulative Return** - Returns refer to the change in close or adjusted close prices, represented as a percentage. Cumulative returns are the aggregation of all returns prior to a specified date.
