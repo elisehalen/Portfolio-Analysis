@@ -1,7 +1,8 @@
 # Portfolio-Optimization
+by Elise H. Cuevas
 
 
--------------------- OBJECTIVE AND OVERVIEW --------------------
+**-------------------- OBJECTIVE AND OVERVIEW --------------------**
 
 This is my first independent analysis involving OHLC stock price data.
 
@@ -13,7 +14,8 @@ In this analysis, we explore historical Adjusted Close stock price data pertaini
 
 The data analyzed in this project is fetched from Yahoo Finance.
 
--------------------- KEY CONCEPTS / TERMINOLOGY --------------------
+
+**-------------------- KEY CONCEPTS / TERMINOLOGY --------------------**
 
 
 * **OHLC Data** - OHLC stands for "Open, Close, Low, Close" and refers to stock prices on a given day.
@@ -29,10 +31,13 @@ The data analyzed in this project is fetched from Yahoo Finance.
     - **Volume** refers to the number of trades that occurred on the specified date.
 
   
-* **Return / Cumulative Return** - Returns refer to the change in close or adjusted close prices, represented as a percentage. Cumulative returns are the aggregation of all returns prior to a specified date.
+* **Return / Cumulative Return** - Returns refer to the change in close or adjusted close prices, between the current and previous day, represented as a percentage. Cumulative returns are the aggregation of all returns prior to a specified date.
+
+  Return is calculated as:
+    ((Current Stock Close Price - Previous Stock Close Price) / (Previous Stock Close Price)) * 100
 
 
-* **Portfolio Expected Return** - This is a key metric of portfolio analysis and is a measure of how much we can expect in return for investing in portfolio stocks. This is calculated by multiplying the historical mean of the asset returns with the weight of the assets. 
+* **Portfolio Expected Return** - This is a key metric of portfolio analysis and is a measure of how much we can expect in return for investing in portfolio stocks. This is calculated by multiplying the historical mean of the asset returns with the weight of the assets.
 
 
 * **Portfolio Risk / Portfolio Standard Deviation** - Risk, which is measured by the standard deviation of returns, is the second key metric in portfolio analysis. This gives us the level of uncertainty in how much return we can expect from a portfolio.
@@ -42,3 +47,4 @@ The data analyzed in this project is fetched from Yahoo Finance.
 
 
 * **Sharpe Ratio / Maximum Sharpe Ratio** - This is a measure used to evaluate return given a specified level of risk. It is equal to the return divided by the ratio. A higher Sharpe Ratio indicates better risk-adjusted performance.
+
