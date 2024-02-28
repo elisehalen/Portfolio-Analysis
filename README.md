@@ -2,6 +2,8 @@
 by Elise H. Cuevas
 
 
+
+
 **-------------------- OBJECTIVE AND OVERVIEW --------------------**
 
 This is my first independent analysis involving OHLC stock price data.
@@ -13,6 +15,8 @@ Our goal is to:
 In this analysis, we explore historical Adjusted Close stock price data pertaining to five of the most prestigious financial instituions to gain insight on their performance over time. Then, we create an equally-weighted portfolio containing these stocks, use the Efficient Frontier method to derive a large set of portfolios with randomly-generated, unequal weights, and find which portfolio is optimal by calculating and comparing their Sharpe Ratios. Finally, we compare these Sharpe Ratios with those of each individual institution, arriving at the best possible solution for investing in these stocks. This project aims to provide insights into portfolio construction and risk-return optimization strategies for investors.
 
 The data analyzed in this project is fetched from Yahoo Finance.
+
+
 
 
 **-------------------- KEY CONCEPTS / TERMINOLOGY --------------------**
