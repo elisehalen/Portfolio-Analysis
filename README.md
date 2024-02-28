@@ -1,7 +1,7 @@
 # Portfolio-Optimization
 
 
------------------------------------ OBJECTIVE AND OVERVIEW
+-------------------- OBJECTIVE AND OVERVIEW --------------------
 
 This is my first independent analysis involving OHLC stock price data.
 
@@ -13,7 +13,7 @@ In this analysis, we explore historical Adjusted Close stock price data pertaini
 
 The data analyzed in this project is fetched from Yahoo Finance.
 
------------------------------------ KEY CONCEPTS / TERMINOLOGY
+-------------------- KEY CONCEPTS / TERMINOLOGY --------------------
 
 
 * **OHLC Data** - OHLC stands for "Open, Close, Low, Close" and refers to stock prices on a given day.
@@ -42,10 +42,3 @@ The data analyzed in this project is fetched from Yahoo Finance.
 
 
 * **Sharpe Ratio / Maximum Sharpe Ratio** - This is a measure used to evaluate return given a specified level of risk. It is equal to the return divided by the ratio. A higher Sharpe Ratio indicates better risk-adjusted performance.
-  
-
-
-
------------------------------------ METHODOLOGY
-
-
