@@ -24,10 +24,10 @@ The data analyzed in this project is fetched from Yahoo Finance.
 
 * **OHLC Data** - OHLC stands for "Open, Close, Low, Close" and refers to stock prices on a given day.
   
-  - The **Open** price is the first price a stock was listed for on a specified date.
-  - The **High** price is the highest sale price the stock was listed for on that day.
-  - The **Low** price is the lowest sale price the stock was listed for on the same day.
-  - The **Close** price refers to the last price that the stock was listed for on that day.
+  - The **_Open_** price is the first price a stock was listed for on a specified date.
+  - The **_High_** price is the highest sale price the stock was listed for on that day.
+  - The **_Low_** price is the lowest sale price the stock was listed for on the same day.
+  - The **_Close_** price refers to the last price that the stock was listed for on that day.
 
     The full OHLC data set contains two additional columns:
 
